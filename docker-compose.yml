@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+
+  azkaban-solo:
+    build: .
+    image: flaviostutz/azkaban-solo
+    ports:
+      - 8081:8081
+      - 8443:8443
+
